@@ -1,0 +1,27 @@
+ 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
+ test prompt:  give me a quote from https://neculaifantanaru.com/en/93-percent-of-the-total-of-a-temporary-space.html
+ 
+ install first: "Microsoft C++ Build Tools"
+ 
+ OPRESTI FIREWALL SI ANTIVIRUS
+ 
+Run following commands for installation:
+--> pip install streamlit==1.31.1 embedchain==0.1.86
+
+To run Application: Open CMD in the folder with app.py 
+
+Astea 2 comenzi merg doar in localhost, dar nu merg si in paginile html.
+
+--> streamlit run app.py  
+
+--> streamlit run --server.port 8502 app.py
+
+ASTA TREBUIE SA RULEZI IN CMD de la laptop BEBE (merge si pe web si in localhost si in Cpanel):
+
+--> streamlit run --server.port 5601 app.py
+
+--> streamlit run --server.port 5000 app.py
+
+
+
+Chatbot app is running at port 5601

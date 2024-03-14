@@ -1,0 +1,27 @@
+
+<!--  Place script in script part before body -->
+
+<script>
+function toggleIframeVisibility() {
+    var iframe = document.getElementById("streamlit-iframe");
+    if (iframe.style.display === "block" || iframe.style.display === "") {
+        iframe.style.display = "none";
+    } else {
+        iframe.style.display = "block";
+    }
+}
+</script>
+ 
+
+
+
+<!-- Place this part in body -->
+
+<button id="bottom-right-btn", onclick="toggleIframeVisibility()">
+    <img src="https://neculaifantanaru.com/index_files/logo.JPG" alt="Logo"> <!-- Replace 'logo.jpg' with the path to your icon -->
+</button>
+
+
+<!-- Place this streamlit iframe at the end of your articles, somewhere before closing     </body> -->
+ 
+<iframe id="streamlit-iframe" src="http://localhost:5601/" frameborder="1"></iframe>
