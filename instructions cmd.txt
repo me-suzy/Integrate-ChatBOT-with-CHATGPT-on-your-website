@@ -1,6 +1,3 @@
- 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
- test prompt:  give me a quote from https://neculaifantanaru.com/en/93-percent-of-the-total-of-a-temporary-space.html
- 
 1. Install first: "Microsoft C++ Build Tools"
  
 2. STOP FIrewall and Antivirus
