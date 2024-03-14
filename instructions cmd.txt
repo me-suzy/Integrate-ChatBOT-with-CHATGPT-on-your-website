@@ -1,27 +1,27 @@
  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
  test prompt:  give me a quote from https://neculaifantanaru.com/en/93-percent-of-the-total-of-a-temporary-space.html
  
- install first: "Microsoft C++ Build Tools"
+1. Install first: "Microsoft C++ Build Tools"
  
- OPRESTI FIREWALL SI ANTIVIRUS
+2. STOP FIrewall and Antivirus
+
+3. Run CMD/Command prompt below FROM YOUR **app.py** folder
  
 Run following commands for installation:
 --> pip install streamlit==1.31.1 embedchain==0.1.86
 
 To run Application: Open CMD in the folder with app.py 
 
-Astea 2 comenzi merg doar in localhost, dar nu merg si in paginile html.
+These 2 commands below only work in localhost, but they don't work in html pages.
 
 --> streamlit run app.py  
 
 --> streamlit run --server.port 8502 app.py
 
-ASTA TREBUIE SA RULEZI IN CMD de la laptop BEBE (merge si pe web si in localhost si in Cpanel):
+This command MUST BE RUN IN CMD from the laptop (but it also works on the webpages and in localhost and in Cpanel).
 
 --> streamlit run --server.port 5601 app.py
 
 --> streamlit run --server.port 5000 app.py
 
-
-
-Chatbot app is running at port 5601
+KEEP IN MIND. You have to run all the time CMD for ChatBOT to work continuously to the website. If you close CMD, then your webste pages will loose the connection with API.
