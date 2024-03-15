@@ -1,4 +1,4 @@
-# ChatBOT+API+CHATGPT Setup
+# ChatBOT API CHATGPT Setup
 
 **Prerequisites**
 
